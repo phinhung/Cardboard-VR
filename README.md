@@ -1,1 +1,2 @@
-Google-Cardboard-VR
+# StargazingVR
+A smart VR game made with Unity
