@@ -158,7 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: Stargazing VR
+    Android: Stargazing_VR.Star.Stargazing
     Standalone: unity.Valve.SteamVR
     Tizen: com.Company.ProductName
     iOS: com.Company.ProductName
@@ -276,9 +276,8 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
   - m_BuildTarget: Android
-    m_Enabled: 1
-    m_Devices:
-    - cardboard
+    m_Enabled: 0
+    m_Devices: []
   - m_BuildTarget: Metro
     m_Enabled: 0
     m_Devices: []
