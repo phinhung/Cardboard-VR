@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0030897777, g: 0.0028942425, b: 0.0031967168, a: 1}
+  m_IndirectSpecularColor: {r: 0.002861413, g: 0.00272252, b: 0.0029007045, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1434,6 +1434,7 @@ GameObject:
   - component: {fileID: 332206639}
   - component: {fileID: 332206633}
   - component: {fileID: 332206634}
+  - component: {fileID: 332206635}
   m_Layer: 0
   m_Name: "Men\xFCkugel"
   m_TagString: Untagged
@@ -1514,6 +1515,19 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &332206635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332206632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!54 &332206636
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2053,6 +2067,7 @@ GameObject:
   - component: {fileID: 665839625}
   - component: {fileID: 665839627}
   - component: {fileID: 665839680}
+  - component: {fileID: 665839703}
   m_Layer: 0
   m_Name: Neptun
   m_TagString: Neptun
@@ -2077,6 +2092,7 @@ GameObject:
   - component: {fileID: 665839630}
   - component: {fileID: 665839632}
   - component: {fileID: 665839714}
+  - component: {fileID: 665839618}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Uranus
@@ -2101,6 +2117,7 @@ GameObject:
   - component: {fileID: 665839635}
   - component: {fileID: 665839637}
   - component: {fileID: 665839716}
+  - component: {fileID: 665839649}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Saturn
@@ -2125,6 +2142,7 @@ GameObject:
   - component: {fileID: 665839640}
   - component: {fileID: 665839642}
   - component: {fileID: 665839687}
+  - component: {fileID: 665839650}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Jupiter
@@ -2149,6 +2167,7 @@ GameObject:
   - component: {fileID: 665839645}
   - component: {fileID: 665839647}
   - component: {fileID: 665839717}
+  - component: {fileID: 665839651}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Mars
@@ -2156,6 +2175,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &665839618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &665839619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,6 +2205,7 @@ GameObject:
   - component: {fileID: 665839655}
   - component: {fileID: 665839657}
   - component: {fileID: 665839718}
+  - component: {fileID: 665839652}
   m_Layer: 0
   m_Name: Erde
   m_TagString: Erde
@@ -2197,6 +2230,7 @@ GameObject:
   - component: {fileID: 665839660}
   - component: {fileID: 665839662}
   - component: {fileID: 665839719}
+  - component: {fileID: 665839701}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Venus
@@ -2221,6 +2255,7 @@ GameObject:
   - component: {fileID: 665839665}
   - component: {fileID: 665839667}
   - component: {fileID: 665839720}
+  - component: {fileID: 665839702}
   m_Layer: 0
   m_Name: Merkur
   m_TagString: Merkur
@@ -2246,6 +2281,7 @@ GameObject:
   - component: {fileID: 665839672}
   - component: {fileID: 665839674}
   - component: {fileID: 665839648}
+  - component: {fileID: 665839708}
   m_Layer: 0
   m_Name: Sonne
   m_TagString: Sonne
@@ -2767,6 +2803,58 @@ MonoBehaviour:
   Linse: {fileID: 0}
   Aufgabe3: 0
   green: 0
+--- !u!114 &665839649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
+--- !u!114 &665839650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
+--- !u!114 &665839651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
+--- !u!114 &665839652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!114 &665839653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3705,6 +3793,45 @@ Transform:
   m_Father: {fileID: 628270492}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &665839701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
+--- !u!114 &665839702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
+--- !u!114 &665839703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!135 &665839704
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3753,6 +3880,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.014499999
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &665839708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665839622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!135 &665839709
 SphereCollider:
   m_ObjectHideFlags: 0

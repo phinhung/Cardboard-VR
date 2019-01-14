@@ -1625,6 +1625,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_SnapDropZone_UnityEvents+SnapDropZoneEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &68368312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68368308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &68598746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,6 +4266,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_SnapDropZone_UnityEvents+SnapDropZoneEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &227281647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227281643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &236999141
 GameObject:
   m_ObjectHideFlags: 0
@@ -17291,6 +17317,19 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - Atair
+--- !u!114 &806601720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806601716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &807728456
 GameObject:
   m_ObjectHideFlags: 0
@@ -18091,6 +18130,19 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - Capella
+--- !u!114 &835051054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 835051050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &835592111
 GameObject:
   m_ObjectHideFlags: 0
@@ -18583,6 +18635,7 @@ GameObject:
   - component: {fileID: 856401924}
   - component: {fileID: 856401923}
   - component: {fileID: 856401922}
+  - component: {fileID: 856401925}
   m_Layer: 0
   m_Name: "Men\xFCkugel "
   m_TagString: Untagged
@@ -18693,6 +18746,19 @@ MonoBehaviour:
   useOverrideButton: 7
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &856401925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 856401921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!114 &856401926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22411,6 +22477,7 @@ GameObject:
   - component: {fileID: 1004650718}
   - component: {fileID: 1004650717}
   - component: {fileID: 1004650716}
+  - component: {fileID: 1004650725}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Mars
@@ -22606,6 +22673,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004650714}
   m_Mesh: {fileID: 4300014, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1004650725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004650714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!224 &1012237853 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224000010703947596, guid: e3811576a34988d47b60f99463017a58,
@@ -24198,6 +24278,7 @@ GameObject:
   - component: {fileID: 1108547517}
   - component: {fileID: 1108547516}
   - component: {fileID: 1108547515}
+  - component: {fileID: 1108547524}
   m_Layer: 0
   m_Name: Neptun
   m_TagString: Neptun
@@ -24393,6 +24474,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1108547513}
   m_Mesh: {fileID: 4300004, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1108547524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1108547513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1120393569
 GameObject:
   m_ObjectHideFlags: 0
@@ -24410,6 +24504,7 @@ GameObject:
   - component: {fileID: 1120393573}
   - component: {fileID: 1120393572}
   - component: {fileID: 1120393571}
+  - component: {fileID: 1120393580}
   m_Layer: 0
   m_Name: Erde
   m_TagString: Erde
@@ -24605,6 +24700,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1120393569}
   m_Mesh: {fileID: 4300012, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1120393580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1120393569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1120723853
 GameObject:
   m_ObjectHideFlags: 0
@@ -25361,6 +25469,19 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - Deneb
+--- !u!114 &1137319564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1137319560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1138277927
 GameObject:
   m_ObjectHideFlags: 0
@@ -26803,6 +26924,19 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - Vega
+--- !u!114 &1226421880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1226421876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1228484781
 GameObject:
   m_ObjectHideFlags: 0
@@ -28701,6 +28835,7 @@ GameObject:
   - component: {fileID: 1295194425}
   - component: {fileID: 1295194424}
   - component: {fileID: 1295194423}
+  - component: {fileID: 1295194432}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Uranus
@@ -28897,6 +29032,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1295194421}
   m_Mesh: {fileID: 4300000, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1295194432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295194421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1295781766
 GameObject:
   m_ObjectHideFlags: 0
@@ -32055,6 +32203,7 @@ GameObject:
   - component: {fileID: 1478984964}
   - component: {fileID: 1478984963}
   - component: {fileID: 1478984962}
+  - component: {fileID: 1478984971}
   m_Layer: 0
   m_Name: Merkur
   m_TagString: Merkur
@@ -32250,6 +32399,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1478984960}
   m_Mesh: {fileID: 4300006, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1478984971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478984960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1001 &1481994226
 Prefab:
   m_ObjectHideFlags: 0
@@ -38082,6 +38244,7 @@ GameObject:
   - component: {fileID: 1743677278}
   - component: {fileID: 1743677277}
   - component: {fileID: 1743677276}
+  - component: {fileID: 1743677285}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Venus
@@ -38277,6 +38440,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1743677274}
   m_Mesh: {fileID: 4300022, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1743677285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1743677274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1744436606
 GameObject:
   m_ObjectHideFlags: 0
@@ -41254,6 +41430,7 @@ GameObject:
   - component: {fileID: 1859028619}
   - component: {fileID: 1859028618}
   - component: {fileID: 1859028617}
+  - component: {fileID: 1859028626}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Jupiter
@@ -41449,6 +41626,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1859028615}
   m_Mesh: {fileID: 4300020, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &1859028626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859028615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1871961624
 GameObject:
   m_ObjectHideFlags: 0
@@ -45037,6 +45227,7 @@ GameObject:
   - component: {fileID: 2041907089}
   - component: {fileID: 2041907088}
   - component: {fileID: 2041907087}
+  - component: {fileID: 2041907097}
   m_Layer: 0
   m_Name: Sonne
   m_TagString: Sonne
@@ -45267,6 +45458,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041907085}
   m_Mesh: {fileID: 4300008, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &2041907097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041907085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!224 &2041974551 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224000010703947596, guid: e3811576a34988d47b60f99463017a58,
@@ -45691,6 +45895,7 @@ GameObject:
   - component: {fileID: 2054946556}
   - component: {fileID: 2054946555}
   - component: {fileID: 2054946554}
+  - component: {fileID: 2054946563}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Saturn
@@ -45887,6 +46092,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2054946552}
   m_Mesh: {fileID: 4300016, guid: 4df35374c4b0ff54d97f2215634d0902, type: 3}
+--- !u!114 &2054946563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2054946552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &2058522471
 GameObject:
   m_ObjectHideFlags: 0
@@ -46213,6 +46431,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_SnapDropZone_UnityEvents+SnapDropZoneEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &2094829022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2094829018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &2098012244
 GameObject:
   m_ObjectHideFlags: 0
