@@ -7,7 +7,9 @@ public class PluginWrapper : MonoBehaviour {
 
     private AndroidJavaObject javaClass;
     public Text myText;
-
+	public bool angeschaut=false;
+	public Transform objectA;
+	public Transform objectB;
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +30,6 @@ public class PluginWrapper : MonoBehaviour {
     }
 
 
-
 	public void leiser(){
 		myText.text = "leiser";
 	}
@@ -37,6 +38,22 @@ public class PluginWrapper : MonoBehaviour {
 		myText.text = "lauter";
 	}
 
+	public void greifen(string ok){
+		myText.text = "greifen"+ok;
 
+		if ((ok == "1") && (angeschaut==true)) {
+			Debug.Log ("yay");	
+			objectA.position = objectB.position;
+			objectA.parent = objectB;
+		}
+	}
+
+	public void anschauen(){
+		angeschaut = true;
+	}
+
+	public void wegschauen(){
+		angeschaut = false;
+	}
 
 }
