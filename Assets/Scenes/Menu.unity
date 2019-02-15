@@ -1420,6 +1420,8 @@ MonoBehaviour:
   objectA: {fileID: 0}
   objectB: {fileID: 1286504301}
   angeschaut: 0
+  pointer: {fileID: 1937350415}
+  wpos: {x: 0, y: 0, z: 0}
 --- !u!1 &789482466
 GameObject:
   m_ObjectHideFlags: 0

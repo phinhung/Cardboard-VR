@@ -24,7 +24,7 @@ public class PluginWrapper : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       
+		
     }
 
 
@@ -54,7 +54,8 @@ public class PluginWrapper : MonoBehaviour {
 
 			}
 		else if ((ok == "1")&&(hand.transform.childCount == 1)){
-			objectA.transform.position = objectB.position;
+			getpospointer ();
+			objectA.transform.position = wpos;
 			objectA.GetComponent<Rigidbody>().useGravity = true;
 			hand.transform.DetachChildren ();
 		}
@@ -68,7 +69,13 @@ public class PluginWrapper : MonoBehaviour {
 		angeschaut = false;
 	}
 
+	public GameObject pointer;
+	public Vector3 wpos;
 
+	public void getpospointer(){
+		wpos = pointer.GetComponent<GvrReticlePointer> ().CurrentRaycastResult.worldPosition;
+		Debug.Log (wpos);
+	}
 
 
 
