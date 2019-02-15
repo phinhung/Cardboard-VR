@@ -7,14 +7,12 @@ public class PluginWrapper : MonoBehaviour {
 
     private AndroidJavaObject javaClass;
     public Text myText;
-	public bool angeschaut=false;
-	public Transform objectA;
-	public Transform objectB;
+
+
 
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("Start");
-
         javaClass = new AndroidJavaObject("com.example.vrlibrary.Keys");
         javaClass.Call("LogNativeAndroidLogcatMessage");
         javaClass.Call("LogNumberSentFromUnity", 76);
@@ -38,13 +36,27 @@ public class PluginWrapper : MonoBehaviour {
 		myText.text = "lauter";
 	}
 
+
+	public GameObject hand;
+	public GameObject objectA;
+	public Transform objectB;
+	public bool angeschaut=false;
 	public void greifen(string ok){
 		myText.text = "greifen"+ok;
 
-		if ((ok == "1") && (angeschaut==true)) {
-			Debug.Log ("yay");	
-			objectA.position = objectB.position;
-			objectA.parent = objectB;
+		if ((ok == "1") && (angeschaut == true)) {
+			if (hand.transform.childCount == 0) {
+				Debug.Log ("yay");	
+				objectA.transform.position = objectB.position;
+				objectA.transform.parent = objectB;
+				objectA.GetComponent<Rigidbody>().useGravity = false;
+			}
+
+			}
+		else if ((ok == "1")&&(hand.transform.childCount == 1)){
+			objectA.transform.position = objectB.position;
+			objectA.GetComponent<Rigidbody>().useGravity = true;
+			hand.transform.DetachChildren ();
 		}
 	}
 
@@ -55,6 +67,8 @@ public class PluginWrapper : MonoBehaviour {
 	public void wegschauen(){
 		angeschaut = false;
 	}
+
+
 
 
 
