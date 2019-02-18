@@ -1382,6 +1382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746431701}
   - component: {fileID: 746431702}
+  - component: {fileID: 746431703}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1420,6 +1421,20 @@ MonoBehaviour:
   objectA: {fileID: 0}
   objectB: {fileID: 1286504301}
   angeschaut: 0
+  pointer: {fileID: 1937350415}
+  wpos: {x: 0, y: 0, z: 0}
+--- !u!114 &746431703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 746431700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59ca0bb7a5bcde4495049a70c6d4431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play: {fileID: 746431700}
   pointer: {fileID: 1937350415}
   wpos: {x: 0, y: 0, z: 0}
 --- !u!1 &789482466
