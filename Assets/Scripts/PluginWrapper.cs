@@ -74,7 +74,6 @@ public class PluginWrapper : MonoBehaviour {
 
 	public void getpospointer(){
 		wpos = pointer.GetComponent<GvrReticlePointer> ().CurrentRaycastResult.worldPosition;
-		Debug.Log (wpos);
 	}
 
 
