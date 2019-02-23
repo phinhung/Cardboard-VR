@@ -3787,6 +3787,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1366755680}
   speed: 50
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -3910,6 +3919,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1793464964}
   speed: 7
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4062,6 +4080,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 55845044}
   speed: 20
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4671,6 +4698,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1036037501}
   speed: -10
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4708,6 +4744,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 173548700}
   speed: 15
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4731,6 +4776,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1222869488}
   speed: 25
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4754,6 +4808,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1497114720}
   speed: 35
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4777,6 +4840,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1683999348}
   speed: 32
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -4800,6 +4872,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1886417350}
   speed: 42
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -5755,6 +5836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 1721540472}
+  myText2: {fileID: 569462250}
   hand: {fileID: 1943500544}
   objectA: {fileID: 0}
   objectB: {fileID: 1943500545}

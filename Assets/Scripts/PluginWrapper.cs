@@ -7,6 +7,7 @@ public class PluginWrapper : MonoBehaviour {
 
     private AndroidJavaObject javaClass;
     public Text myText;
+	public Text myText2;
 
 
 
@@ -82,6 +83,11 @@ public class PluginWrapper : MonoBehaviour {
 			planetenbahn.GetComponent<SphereCollider> ().enabled = false;
 			snappos.GetComponent<SphereCollider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
+
+		if (objecttosnap.name == "Sonne") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
+			myText2.text = "Sonne snapped";
+		}
 		
 	}
 

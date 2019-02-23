@@ -23,15 +23,15 @@ public class Rotation : MonoBehaviour {
 		}
 	}
 
-	bool isSnappedso;   // Anlegen der Variablen für die Planeten
-	bool isSnappedmerkur;
-	bool isSnappedv;
-	bool isSnappede;
-	bool isSnappedma;
-	bool isSnappedj;
-	bool isSnappeds;
-	bool isSnappedu;
-	bool isSnappedn;
+	public bool isSnappedso;   // Anlegen der Variablen für die Planeten
+	public bool isSnappedmerkur;
+	public bool isSnappedv;
+	public bool isSnappede;
+	public bool isSnappedma;
+	public bool isSnappedj;
+	public bool isSnappeds;
+	public bool isSnappedu;
+	public bool isSnappedn;
 	public bool finishsun;
 	public bool finishn;
 	public bool finishsa;

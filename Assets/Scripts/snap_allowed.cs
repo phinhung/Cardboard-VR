@@ -49,11 +49,12 @@ public class snap_allowed : MonoBehaviour {
 
 				if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
 					GetComponent<SphereCollider>().enabled = false;
+					snapallow = false;
 					
 				}
 				if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
 					GetComponent<SphereCollider>().enabled = true;
-					setsnapallowed ();
+					snapallow = true;
 
 				}
 			
@@ -69,9 +70,7 @@ public class snap_allowed : MonoBehaviour {
 	public GameObject player;
 	Vector3 pos;
 
-	void setsnapallowed(){
-		snapallow = true;
-	}
+
 
 	public void bahnanschauen(){
 		pos= player.GetComponent<PluginWrapper> ().wpos ;
