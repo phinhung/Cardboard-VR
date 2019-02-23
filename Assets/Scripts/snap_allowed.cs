@@ -17,7 +17,7 @@ public class snap_allowed : MonoBehaviour {
 	public GameObject right;
 	public bool allowsnap;
 
-
+	bool snapok;
 
 	void Update () {
 		//Controller finden und deren Position einer Variable zuweisen
@@ -36,9 +36,6 @@ public class snap_allowed : MonoBehaviour {
 			objectisgrabbed = false;
 		}
 			
-		if (Input.GetKeyDown (KeyCode.F1)) {
-			objectisgrabbed = true;
-		}
 
 
 		//ausrechnen der Distanz
@@ -49,15 +46,25 @@ public class snap_allowed : MonoBehaviour {
 
 				if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
 					GetComponent<SphereCollider>().enabled = false;
-					snapallow = false;
+				snapok = false;
 					
 				}
 				if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
 					GetComponent<SphereCollider>().enabled = true;
-					snapallow = true;
+				snapok = true;
 
 				}
 			
+		}
+
+		pos= player.GetComponent<PluginWrapper> ().wpos ;
+		if ((pos.y > 1.2f) && (snapallow == true) && (snapok == true)) {
+			player.GetComponent<PluginWrapper> ().snapzo = snapzo;
+			player.GetComponent<PluginWrapper> ().objecttosnap = objecttosnap;
+			player.GetComponent<PluginWrapper> ().planetenbahn = planetenbahn;
+			player.GetComponent<PluginWrapper> ().snappos = snappos;
+			player.GetComponent<PluginWrapper> ().snapallowed = true;
+		} else {player.GetComponent<PluginWrapper> ().snapallowed = false;
 		}
 
 	}
@@ -73,14 +80,8 @@ public class snap_allowed : MonoBehaviour {
 
 
 	public void bahnanschauen(){
-		pos= player.GetComponent<PluginWrapper> ().wpos ;
-		if (pos.y > 1.2f) {
-			player.GetComponent<PluginWrapper> ().snapzo = snapzo;
-			player.GetComponent<PluginWrapper> ().objecttosnap = objecttosnap;
-			player.GetComponent<PluginWrapper> ().planetenbahn = planetenbahn;
-			player.GetComponent<PluginWrapper> ().snappos = snappos;
-			player.GetComponent<PluginWrapper> ().snapallowed = snapallow;
-		}
+		
+		snapallow = true;
 		
 	}
 
