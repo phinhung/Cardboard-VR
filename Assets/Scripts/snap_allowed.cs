@@ -6,15 +6,18 @@ using VRTK;
 public class snap_allowed : MonoBehaviour {
 
 
-	Vector3 posleft;
-	public Vector3 posright;
+	public Vector3 posleft;
+	Vector3 posright;
 	Vector3 center;
-	bool objectisgrabbed;
-	float Distanceri;
-	float Distancele;
+	public bool objectisgrabbed;
+	public float Distanceri;
+	public float Distancele;
 	public float alloweddistance;
 	public GameObject planet;
-	public bool allowsnap;	
+	public bool allowsnap;
+	public GameObject left;
+	public GameObject right;
+
 
 	public void distance(){
 
@@ -23,22 +26,32 @@ public class snap_allowed : MonoBehaviour {
 
 	void Update () {
 		//Controller finden und deren Position einer Variable zuweisen
-		GameObject left = GameObject.Find ("LeftController");
+		 left = GameObject.Find ("left");
 		posleft = left.GetComponent<PositionLeftHand> ().positionleft;
 
-		GameObject right = GameObject.Find ("RightController");
-		posright = right.GetComponent<PositionRightHand> ().positionright;
+		right = GameObject.Find ("right");
+		posleft = right.GetComponent<PositionRightHand> ().positionright;
+
 
 		//prüfen, ob ein Planet gegriffen ist
-		var planetgrabbed = planet.GetComponentInParent<VRTK_InteractableObject> ();
-		objectisgrabbed = planetgrabbed.IsGrabbed ();
+		if (left.transform.childCount == 1){
+			objectisgrabbed = true;
+		}
+		else if(left.transform.childCount == 0){
+			objectisgrabbed = false;
+		}
+			
+		if (Input.GetKeyDown (KeyCode.F1)) {
+			objectisgrabbed = true;
+		}
+
 
 		//ausrechnen der Distanz
 		if (objectisgrabbed == true) {
 			Distanceri = Vector3.Distance (posright, center);
 			Distancele = Vector3.Distance (posleft, center);
 		//SnapDropZone aktiv/deaktiv setzen
-			if (allowsnap == true){
+
 				if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
 					GetComponent<VRTK_SnapDropZone>().enabled = false;
 					GetComponent<SphereCollider>().enabled = false;
@@ -48,7 +61,7 @@ public class snap_allowed : MonoBehaviour {
 					GetComponent<SphereCollider>().enabled = true;
 
 				}
-			}
+			
 		}
 
 	}
