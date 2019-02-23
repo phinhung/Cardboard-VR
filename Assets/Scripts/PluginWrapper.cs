@@ -41,6 +41,9 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject objectA;
 	public Transform objectB;
 	public bool angeschaut=false;
+
+	public bool snapallowed;
+
 	public void greifen(string ok){
 		myText.text = "greifen"+ok;
 
@@ -55,11 +58,34 @@ public class PluginWrapper : MonoBehaviour {
 			}
 		else if ((ok == "1")&&(hand.transform.childCount == 1)){
 			getpospointer ();
-			objectA.transform.position = wpos;
-			objectA.GetComponent<Rigidbody>().useGravity = true;
-			hand.transform.DetachChildren ();
+			if (snapallowed = false) {
+				objectA.transform.position = wpos;
+				objectA.GetComponent<Rigidbody> ().useGravity = true;
+				hand.transform.DetachChildren ();
+			}
+
+			if (snapallowed = true) {
+				hand.transform.DetachChildren ();
+				snap ();
+			}
 		}
 	}
+
+	public GameObject snapzo;
+	public GameObject objecttosnap;
+	public GameObject planetenbahn;
+	public GameObject snappos;
+
+	public void snap(){
+		
+
+			planetenbahn.GetComponent<SphereCollider> ().enabled = false;
+			snappos.GetComponent<SphereCollider> ().enabled = false;
+			objecttosnap.transform.position = snappos.transform.position;
+		
+	}
+
+
 
 	public void anschauen(){
 		angeschaut = true;
@@ -74,7 +100,7 @@ public class PluginWrapper : MonoBehaviour {
 
 	public void getpospointer(){
 		wpos = pointer.GetComponent<GvrReticlePointer> ().CurrentRaycastResult.worldPosition;
-		Debug.Log (wpos);
+	
 	}
 
 
