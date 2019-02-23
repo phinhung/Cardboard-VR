@@ -86,8 +86,6 @@ public class Rotation : MonoBehaviour {
 
     void Update () {
 
-		var planetgrab = GetComponentInParent<VRTK_InteractableObject> ();
-		objectgrabbed = planetgrab.IsGrabbed ();
 		//prüfen, ob Planeten an richtiger Stelle
 		//rotieren, wenn Planet an richtiger Stelle
         //Variablen finish.. auf true setzen
