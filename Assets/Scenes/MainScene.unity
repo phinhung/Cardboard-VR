@@ -10623,7 +10623,7 @@ GameObject:
   - component: {fileID: 815494122}
   - component: {fileID: 815494123}
   - component: {fileID: 815494114}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Waende
   m_TagString: Untagged
   m_Icon: {fileID: 0}
