@@ -24,10 +24,74 @@ public class PluginWrapper : MonoBehaviour {
 
 		Physics.IgnoreLayerCollision(8, 2);
 	}
-	
+
+	public GameObject szsonne;
+	public GameObject szmerkur;
+	public GameObject szvenus;
+	public GameObject szerde;
+	public GameObject szmars;
+	public GameObject szjupiter;
+	public GameObject szsaturn;
+	public GameObject szuranus;
+	public GameObject szneptun;
 	// Update is called once per frame
 	void Update () {
-		
+		myText.text = objectA.name;
+		if (objectA.name == "Sonne") {
+			myText2.text = "Sonne";
+			szsonne.SetActive(true);
+		} else {
+			myText2.text = "nicht Sonne";
+			szsonne.SetActive(false);
+		}
+
+		if (objectA.name == "Merkur") {
+			szmerkur.SetActive(true);
+		} else {
+			szmerkur.SetActive(false);
+		}
+
+		if (objectA.name == "Venus") {
+			szvenus.SetActive(true);
+		} else {
+			szvenus.SetActive(false);
+		}
+
+		if (objectA.name == "Erde") {
+			szerde.SetActive(true);
+		} else {
+			szerde.SetActive(false);
+		}
+
+		if (objectA.name == "Mars") {
+			szmars.SetActive(true);
+		} else {
+			szmars.SetActive(false);
+		}
+
+		if (objectA.name == "Jupiter") {
+			szjupiter.SetActive(true);
+		} else {
+			szjupiter.SetActive(false);
+		}
+
+		if (objectA.name == "Saturn") {
+			szsaturn.SetActive(true);
+		} else {
+			szsaturn.SetActive(false);
+		}
+
+		if (objectA.name == "Uranus") {
+			szuranus.SetActive(true);
+		} else {
+			szuranus.SetActive(false);
+		}
+
+		if (objectA.name == "Neptun") {
+			szneptun.SetActive(true);
+		} else {
+			szneptun.SetActive(false);
+		}
     }
 
 
@@ -49,7 +113,7 @@ public class PluginWrapper : MonoBehaviour {
 	Vector3 npos;
 
 	public void greifen(string ok){
-		myText.text = "greifen"+ok;
+		//myText.text = "greifen"+ok;
 
 		if ((ok == "1") && (angeschaut == true)) {
 			if (hand.transform.childCount == 0) {
@@ -93,6 +157,11 @@ public class PluginWrapper : MonoBehaviour {
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
 			myText2.text = "Sonne snapped";
+		}
+
+		if (objecttosnap.name == "Uranus") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedu = true;
+			myText2.text = "Uranus snapped";
 		}
 		
 	}

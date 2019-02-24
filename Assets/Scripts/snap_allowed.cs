@@ -46,12 +46,12 @@ public class snap_allowed : MonoBehaviour {
 
 				if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
 					GetComponent<SphereCollider>().enabled = false;
-				snapok = false;
+					snapok = false;
 					
 				}
 				if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
 					GetComponent<SphereCollider>().enabled = true;
-				snapok = true;
+					snapok = true;
 
 				}
 			
