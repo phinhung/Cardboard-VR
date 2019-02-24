@@ -38,10 +38,8 @@ public class PluginWrapper : MonoBehaviour {
 	void Update () {
 		myText.text = objectA.name;
 		if (objectA.name == "Sonne") {
-			myText2.text = "Sonne";
 			szsonne.SetActive(true);
 		} else {
-			myText2.text = "nicht Sonne";
 			szsonne.SetActive(false);
 		}
 
@@ -156,12 +154,38 @@ public class PluginWrapper : MonoBehaviour {
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
-			myText2.text = "Sonne snapped";
+		}
+
+		if (objecttosnap.name == "Merkur") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedmerkur = true;
+		}
+
+		if (objecttosnap.name == "Venus") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedv = true;
+		}
+
+		if (objecttosnap.name == "Erde") {
+			objecttosnap.GetComponent<Rotation> ().isSnappede = true;
+		}
+
+		if (objecttosnap.name == "Mars") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedma = true;
+		}
+
+		if (objecttosnap.name == "Jupiter") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedj = true;
+		}
+
+		if (objecttosnap.name == "Saturn") {
+			objecttosnap.GetComponent<Rotation> ().isSnappeds = true;
 		}
 
 		if (objecttosnap.name == "Uranus") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedu = true;
-			myText2.text = "Uranus snapped";
+		}
+
+		if (objecttosnap.name == "Neptun") {
+			objecttosnap.GetComponent<Rotation> ().isSnappedn = true;
 		}
 		
 	}
