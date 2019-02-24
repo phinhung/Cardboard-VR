@@ -2819,7 +2819,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 221585344}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Schrank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7147,7 +7147,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 501804351}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Tastatur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7209,7 +7209,7 @@ GameObject:
   - component: {fileID: 526958304}
   - component: {fileID: 526958306}
   - component: {fileID: 526958305}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Computer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8616,7 +8616,7 @@ GameObject:
   - component: {fileID: 677122477}
   - component: {fileID: 677122476}
   - component: {fileID: 677122475}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Schrank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9800,7 +9800,7 @@ GameObject:
   - component: {fileID: 737721904}
   - component: {fileID: 737721907}
   - component: {fileID: 737721906}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Tisch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9835,7 +9835,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5099de0bc99e0554eb11fddf48b3a269, type: 2}
+  - {fileID: 2100000, guid: f4ffd2213ae68be49bc1e210f0853a85, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18005,7 +18005,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1439252403}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Computer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18613,7 +18613,7 @@ GameObject:
   - component: {fileID: 1558854178}
   - component: {fileID: 1558854177}
   - component: {fileID: 1558854176}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Tastatur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19232,7 +19232,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1637701907}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Schreibtisch
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -58,7 +58,7 @@ public class snap_allowed : MonoBehaviour {
 		}
 
 		pos= player.GetComponent<PluginWrapper> ().wpos ;
-		if ((pos.y > 1.2f) && (snapallow == true) && (snapok == true)) {
+		if ((pos.y < 1.4f) && (snapallow == true) && (snapok == true)) {
 			player.GetComponent<PluginWrapper> ().snapzo = snapzo;
 			player.GetComponent<PluginWrapper> ().objecttosnap = objecttosnap;
 			player.GetComponent<PluginWrapper> ().planetenbahn = planetenbahn;
