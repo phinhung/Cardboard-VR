@@ -21,6 +21,8 @@ public class PluginWrapper : MonoBehaviour {
 		Debug.Log ("Juhu" + javaClass);
 
         myText.text = javaClass.Call<int>("AddFiveToMyNumber", 4).ToString();
+
+		Physics.IgnoreLayerCollision(8, 2);
 	}
 	
 	// Update is called once per frame
@@ -44,6 +46,7 @@ public class PluginWrapper : MonoBehaviour {
 	public bool angeschaut=false;
 
 	public bool snapallowed;
+	Vector3 npos;
 
 	public void greifen(string ok){
 		myText.text = "greifen"+ok;
@@ -59,15 +62,18 @@ public class PluginWrapper : MonoBehaviour {
 			}
 		else if ((ok == "1")&&(hand.transform.childCount == 1)){
 			getpospointer ();
-			if (snapallowed = false) {
-				objectA.transform.position = wpos;
-				objectA.GetComponent<Rigidbody> ().useGravity = true;
-				hand.transform.DetachChildren ();
-			}
+
+			npos.x = wpos.x;
+			npos.z = wpos.z;
+			npos.y = wpos.y+0.1f;
+			objectA.transform.position = npos;
+			hand.transform.DetachChildren ();
+
 
 			if (snapallowed = true) {
-				hand.transform.DetachChildren ();
 				snap ();
+			} else {
+				objectA.GetComponent<Rigidbody> ().useGravity = true;
 			}
 		}
 	}
@@ -76,13 +82,13 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject objecttosnap;
 	public GameObject planetenbahn;
 	public GameObject snappos;
+	bool enter=true;
 
 	public void snap(){
 		
 
-			planetenbahn.GetComponent<SphereCollider> ().enabled = false;
-			snappos.GetComponent<SphereCollider> ().enabled = false;
-			objecttosnap.transform.position = snappos.transform.position;
+		objectA.GetComponent<Rigidbody> ().useGravity = true;
+		OnTriggerStay (snapzo.GetComponent<SphereCollider> ());
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
@@ -91,7 +97,18 @@ public class PluginWrapper : MonoBehaviour {
 		
 	}
 
+ void OnTriggerStay(Collider other)
+	{
+		if (enter) {	
+			planetenbahn.GetComponent<SphereCollider> ().enabled = false;
+			snappos.GetComponent<SphereCollider> ().enabled = false;
+			objecttosnap.transform.position = snappos.transform.position;
+			objectA.GetComponent<Rigidbody> ().useGravity = false;
 
+		} else {
+			objectA.GetComponent<Rigidbody> ().useGravity = true;
+		}
+	}
 
 	public void anschauen(){
 		angeschaut = true;

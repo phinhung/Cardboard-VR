@@ -466,7 +466,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011479503222, guid: e3811576a34988d47b60f99463017a58, type: 2}
       propertyPath: m_Layer
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114000011252902500, guid: e3811576a34988d47b60f99463017a58,
         type: 2}
@@ -537,6 +537,46 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013253791130, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013262441960, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010701239266, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013154830886, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012166891492, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010341222188, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013400582030, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012457777852, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013798255254, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011105831702, guid: e3811576a34988d47b60f99463017a58, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3811576a34988d47b60f99463017a58, type: 2}
@@ -2625,7 +2665,7 @@ GameObject:
   - component: {fileID: 665839648}
   - component: {fileID: 665839708}
   - component: {fileID: 665839722}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sonne
   m_TagString: Sonne
   m_Icon: {fileID: 0}
@@ -5507,7 +5547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1018570617}
   - component: {fileID: 1018570618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6352,7 +6392,7 @@ SphereCollider:
   m_GameObject: {fileID: 1366755680}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.46
   m_Center: {x: -0.000022584572, y: 0.000041248288, z: 0.0017061178}
