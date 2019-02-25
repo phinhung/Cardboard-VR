@@ -193,7 +193,7 @@ public class PluginWrapper : MonoBehaviour {
  void OnTriggerStay(Collider other)
 	{
 		if (enter) {	
-			planetenbahn.GetComponent<SphereCollider> ().enabled = false;
+			//planetenbahn.GetComponent<SphereCollider> ().enabled = false;
 			snappos.GetComponent<SphereCollider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
 			objectA.GetComponent<Rigidbody> ().useGravity = false;

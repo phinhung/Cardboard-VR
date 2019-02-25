@@ -3362,7 +3362,7 @@ GameObject:
   - component: {fileID: 286223859}
   - component: {fileID: 286223858}
   - component: {fileID: 286223857}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Fenster1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10264,7 +10264,7 @@ GameObject:
   - component: {fileID: 768139971}
   - component: {fileID: 768139970}
   - component: {fileID: 768139969}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Griff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12430,7 +12430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 982928863}
   - component: {fileID: 982928864}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17266,7 +17266,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1414034816}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Balkonfenster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19077,7 +19077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610199621}
   - component: {fileID: 1610199620}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22124,7 +22124,7 @@ GameObject:
   - component: {fileID: 2007634794}
   - component: {fileID: 2007634793}
   - component: {fileID: 2007634792}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Fenster2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
