@@ -34,8 +34,16 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject szsaturn;
 	public GameObject szuranus;
 	public GameObject szneptun;
+
+	public GameObject szdeneb;
+	public GameObject szvega;
+	public GameObject szcapella;
+	public GameObject szatair;
+	public GameObject szalumi;
 	// Update is called once per frame
 	void Update () {
+
+		//für Aufgabe 1 jeweils die SnapZone des jeweiligen Planeten aktiv setzen
 		myText.text = objectA.name;
 		if (objectA.name == "Sonne") {
 			szsonne.SetActive(true);
@@ -90,6 +98,39 @@ public class PluginWrapper : MonoBehaviour {
 		} else {
 			szneptun.SetActive(false);
 		}
+
+
+		//für Aufgabe 2 jeweils die SnapZone des jeweiligen Stern aktiv setzen, wenn dieser gegriffen
+		if (objectA.name == "DenebBall") {
+			szdeneb.SetActive(true);
+		} else {
+			szdeneb.SetActive(false);
+		}
+
+		if (objectA.name == "VegaBall") {
+			szvega.SetActive(true);
+		} else {
+			szvega.SetActive(false);
+		}
+
+		if (objectA.name == "CapellaBall") {
+			szcapella.SetActive(true);
+		} else {
+			szcapella.SetActive(false);
+		}
+
+		if (objectA.name == "AtairBall") {
+			szatair.SetActive(true);
+		} else {
+			szatair.SetActive(false);
+		}
+
+		if (objectA.name == "AluMiBall") {
+			szalumi.SetActive(true);
+		} else {
+			szalumi.SetActive(false);
+		}
+
     }
 
 
