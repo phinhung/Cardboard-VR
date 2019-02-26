@@ -195,41 +195,56 @@ public class PluginWrapper : MonoBehaviour {
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
+			objecttosnap.transform.localScale += new Vector3(0.1f, 0.1f, 0.1f);
 		}
 
 		if (objecttosnap.name == "Merkur") {
+			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
 			objecttosnap.GetComponent<Rotation> ().isSnappedmerkur = true;
 		}
 
 		if (objecttosnap.name == "Venus") {
+			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
 			objecttosnap.GetComponent<Rotation> ().isSnappedv = true;
 		}
 
 		if (objecttosnap.name == "Erde") {
+			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
 			objecttosnap.GetComponent<Rotation> ().isSnappede = true;
+			objectA.transform.rotation = Quaternion.Euler(90,0,0);
 		}
 
 		if (objecttosnap.name == "Mars") {
+			objectA.transform.rotation = Quaternion.Euler(90,0,0);
+			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
 			objecttosnap.GetComponent<Rotation> ().isSnappedma = true;
 		}
 
 		if (objecttosnap.name == "Jupiter") {
+			objecttosnap.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+			objectA.transform.rotation = Quaternion.Euler(-30,0,-45);
 			objecttosnap.GetComponent<Rotation> ().isSnappedj = true;
 		}
 
 		if (objecttosnap.name == "Saturn") {
+			objecttosnap.transform.localScale += new Vector3(0.4f, 0.4f, 0.4f);
+			objectA.transform.rotation = Quaternion.Euler(-180,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappeds = true;
 		}
 
 		if (objecttosnap.name == "Uranus") {
+			objecttosnap.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
 			objecttosnap.GetComponent<Rotation> ().isSnappedu = true;
 		}
 
 		if (objecttosnap.name == "Neptun") {
+			objectA.transform.rotation = Quaternion.Euler(90,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappedn = true;
 		}
 		
 	}
+
+
 
  void OnTriggerStay(Collider other)
 	{
@@ -238,6 +253,7 @@ public class PluginWrapper : MonoBehaviour {
 			snappos.GetComponent<SphereCollider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
 			objectA.GetComponent<Rigidbody> ().useGravity = false;
+			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 
 		} else {
 			objectA.GetComponent<Rigidbody> ().useGravity = true;
