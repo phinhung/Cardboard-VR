@@ -196,7 +196,7 @@ public class PluginWrapper : MonoBehaviour {
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
-			objecttosnap.transform.localScale += new Vector3(0.1f, 0.1f, 0.1f);
+
 		}
 
 		if (objecttosnap.name == "Merkur") {
@@ -279,20 +279,29 @@ public class PluginWrapper : MonoBehaviour {
 
 	GameObject oA;
 	bool panelactive=false;
-	public void infopanel(string oki){
-		if ((oki == "1")&&(hand.transform.childCount == 1)){
+	public GameObject camera;
+	public void infopanel(string oki) {
+		if ((oki == "1")&&(hand.transform.childCount == 1)&&(panelactive == false)){
 			oA = objectA.transform.Find ("PanelMenu").gameObject;
 			oA.SetActive (true);
 			panelactive = true;
+			oA.transform.LookAt (camera.transform);
+			myText2.text = "panelda";
+		
 			
-		}
-
-		/*if ((oki == "1")&&(hand.transform.childCount == 1)&&(panelactive == true)){
-			oA = objectA.transform.Find ("PanelMenu").gameObject;
+		} else	if ((panelactive == true)&&(hand.transform.childCount == 1)&&(oki == "1")){
+			myText2.text = "panelweg";
 			oA.SetActive (false);
 			panelactive = false;
 
-		}*/
+
+
+
+	}
+
+
+		
+
 
 	}
 
