@@ -160,6 +160,7 @@ public class PluginWrapper : MonoBehaviour {
 				objectA.transform.position = objectB.position;
 				objectA.transform.parent = objectB;
 				objectA.GetComponent<Rigidbody>().useGravity = false;
+				objectA.transform.rotation = Quaternion.Euler(0,0,0);
 			}
 
 			}
@@ -274,6 +275,25 @@ public class PluginWrapper : MonoBehaviour {
 	public void getpospointer(){
 		wpos = pointer.GetComponent<GvrReticlePointer> ().CurrentRaycastResult.worldPosition;
 	
+	}
+
+	GameObject oA;
+	bool panelactive=false;
+	public void infopanel(string oki){
+		if ((oki == "1")&&(hand.transform.childCount == 1)){
+			oA = objectA.transform.Find ("PanelMenu").gameObject;
+			oA.SetActive (true);
+			panelactive = true;
+			
+		}
+
+		/*if ((oki == "1")&&(hand.transform.childCount == 1)&&(panelactive == true)){
+			oA = objectA.transform.Find ("PanelMenu").gameObject;
+			oA.SetActive (false);
+			panelactive = false;
+
+		}*/
+
 	}
 
 
