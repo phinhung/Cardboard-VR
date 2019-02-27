@@ -199,35 +199,35 @@ public class PluginWrapper : MonoBehaviour {
 		}
 
 		if (objecttosnap.name == "Merkur") {
-			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
+			objecttosnap.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
 			objecttosnap.GetComponent<Rotation> ().isSnappedmerkur = true;
 		}
 
 		if (objecttosnap.name == "Venus") {
-			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
+			objecttosnap.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
 			objecttosnap.GetComponent<Rotation> ().isSnappedv = true;
 		}
 
 		if (objecttosnap.name == "Erde") {
-			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
+			objecttosnap.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
 			objecttosnap.GetComponent<Rotation> ().isSnappede = true;
 			objectA.transform.rotation = Quaternion.Euler(90,0,0);
 		}
 
 		if (objecttosnap.name == "Mars") {
 			objectA.transform.rotation = Quaternion.Euler(90,0,0);
-			objecttosnap.transform.localScale -= new Vector3(1, 1, 1);
+			objecttosnap.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
 			objecttosnap.GetComponent<Rotation> ().isSnappedma = true;
 		}
 
 		if (objecttosnap.name == "Jupiter") {
-			objecttosnap.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+			objecttosnap.transform.localScale += new Vector3(0.3f, 0.3f, 0.3f);
 			objectA.transform.rotation = Quaternion.Euler(-30,0,-45);
 			objecttosnap.GetComponent<Rotation> ().isSnappedj = true;
 		}
 
 		if (objecttosnap.name == "Saturn") {
-			objecttosnap.transform.localScale += new Vector3(0.4f, 0.4f, 0.4f);
+			objecttosnap.transform.localScale += new Vector3(0.2f, 0.2f, 0.2f);
 			objectA.transform.rotation = Quaternion.Euler(-180,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappeds = true;
 		}

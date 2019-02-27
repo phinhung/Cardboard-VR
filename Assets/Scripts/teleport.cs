@@ -18,7 +18,7 @@ public class teleport : MonoBehaviour {
 			getpospointer ();
 			newpos.x = wpos.x;
 			newpos.z = wpos.z;
-			newpos.y = 1.45f;
+			newpos.y = 1.66f;
 			play.transform.position = newpos;
 
 			

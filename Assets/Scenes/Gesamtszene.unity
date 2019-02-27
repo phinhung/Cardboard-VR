@@ -8915,10 +8915,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1743677274}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &439456904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14093,10 +14103,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1108547513}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &659193095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15974,10 +15994,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1120393569}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &744108746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16412,7 +16442,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768139967}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -1.451, y: 0.8851215, z: 0.077}
+  m_LocalPosition: {x: -0.114, y: 0.8851215, z: 0.05}
   m_LocalScale: {x: 1.7675413, y: 1.7675413, z: 52.38351}
   m_Children:
   - {fileID: 2007634791}
@@ -16855,10 +16885,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 2041907085}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &786873825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21406,10 +21446,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1004650714}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &937391131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22650,6 +22700,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710223}
   speed: 25
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -23750,10 +23809,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 2054946552}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &1052275207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24451,6 +24520,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710218}
   speed: 7
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -24677,6 +24755,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710219}
   speed: 35
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -25112,10 +25199,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1859028615}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &1124711188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25350,10 +25447,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1295194421}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &1127075281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29075,6 +29182,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710220}
   speed: -10
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -32412,6 +32528,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710225}
   speed: 42
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -38198,10 +38323,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f508524f3e46aa340b55258ed22dca47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posright: {x: 0, y: 0, z: 0}
+  posleft: {x: 0, y: 0, z: 0}
+  objectisgrabbed: 0
+  Distanceri: 0
+  Distancele: 0
   alloweddistance: 0
-  planet: {fileID: 1478984960}
+  left: {fileID: 0}
+  right: {fileID: 0}
   allowsnap: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
+  snapallow: 0
+  player: {fileID: 0}
 --- !u!114 &1743046063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38453,6 +38588,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710224}
   speed: 32
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -41639,6 +41783,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710222}
   speed: 20
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -45315,10 +45468,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 0}
+  myText2: {fileID: 0}
+  szsonne: {fileID: 0}
+  szmerkur: {fileID: 0}
+  szvenus: {fileID: 0}
+  szerde: {fileID: 0}
+  szmars: {fileID: 0}
+  szjupiter: {fileID: 0}
+  szsaturn: {fileID: 0}
+  szuranus: {fileID: 0}
+  szneptun: {fileID: 0}
+  szdeneb: {fileID: 0}
+  szvega: {fileID: 0}
+  szcapella: {fileID: 0}
+  szatair: {fileID: 0}
+  szalumi: {fileID: 0}
   hand: {fileID: 2925331}
   objectA: {fileID: 0}
   objectB: {fileID: 2925332}
   angeschaut: 0
+  snapallowed: 0
+  snapzo: {fileID: 0}
+  objecttosnap: {fileID: 0}
+  planetenbahn: {fileID: 0}
+  snappos: {fileID: 0}
   pointer: {fileID: 275202219}
   wpos: {x: 0, y: 0, z: 0}
 --- !u!4 &2025657824
@@ -45535,6 +45708,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 1765483390}
   speed: 50
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
@@ -46169,6 +46351,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bahn: {fileID: 629710221}
   speed: 15
+  isSnappedso: 0
+  isSnappedmerkur: 0
+  isSnappedv: 0
+  isSnappede: 0
+  isSnappedma: 0
+  isSnappedj: 0
+  isSnappeds: 0
+  isSnappedu: 0
+  isSnappedn: 0
   finishsun: 0
   finishn: 0
   finishsa: 0
