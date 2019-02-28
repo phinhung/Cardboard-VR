@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: ded748d634bdcd147a8d3a0024c1b609
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Brief.unity
     guid: e398978810b31d844a593b19e0349c92
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: c39f434b4083f694caf0a93d6dba2992
   - enabled: 1
@@ -23,18 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Aufgabe2.unity
     guid: 162f4f6e52765fc44a10feb311854f5c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Aufgabe3.unity
     guid: 592e32593c6850d48b47923983e25fc2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Outro.unity
     guid: aabf84a2ca47e4e4aad68cd1c12f48aa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Gesamtszene.unity
     guid: 0565185fa04cf6245abec701d56f9a56
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: fb8d0f223671a09438f72371d0098256
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 2eb53419fa931d449a0dc37aaaad6f76

@@ -5,11 +5,11 @@ using VRTK;
 using UnityEngine.SceneManagement;
 public class Aufgabe2 : MonoBehaviour
 {
-    bool isSnappedDe;
-    bool isSnappedVe;
-    bool isSnappedCa;
-    bool isSnappedAt;
-    bool isSnappedAluMi;
+	public bool isSnappedDe;
+	public bool isSnappedVe;
+	public bool isSnappedCa;
+	public bool isSnappedAt;
+	public bool isSnappedAluMi;
     public bool finishAt;
     public bool finishDe;
     public bool finishVe;

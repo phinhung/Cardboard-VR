@@ -242,7 +242,26 @@ public class PluginWrapper : MonoBehaviour {
 			objectA.transform.rotation = Quaternion.Euler(90,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappedn = true;
 		}
-		
+
+		if (objectA.name == "DenebBall") {
+			objecttosnap.GetComponent<Aufgabe2> ().isSnappedDe = true;
+		}
+
+		if (objectA.name == "VegaBall") {
+			objecttosnap.GetComponent<Aufgabe2> ().isSnappedVe = true;
+		}
+
+		if (objectA.name == "CapellaBall") {
+			objecttosnap.GetComponent<Aufgabe2> ().isSnappedCa = true;
+		}
+
+		if (objectA.name == "AtairBall") {
+			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAt = true;
+		}
+
+		if (objectA.name == "AlumiBall") {
+			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAluMi = true;
+		}
 	}
 
 
