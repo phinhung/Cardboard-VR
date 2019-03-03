@@ -259,7 +259,7 @@ public class PluginWrapper : MonoBehaviour {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAt = true;
 		}
 
-		if (objectA.name == "AlumiBall") {
+		if (objectA.name == "AluMiBall") {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAluMi = true;
 		}
 	}
