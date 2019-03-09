@@ -17,15 +17,13 @@ public class snap_allowed : MonoBehaviour {
 	public GameObject right;
 	public bool allowsnap;
 
-	bool snapok;
+	public bool snapok;
 
 	void Update () {
 		//Controller finden und deren Position einer Variable zuweisen
-		 left = GameObject.Find ("left");
 		posleft = left.GetComponent<PositionLeftHand> ().positionleft;
 
-		right = GameObject.Find ("right");
-		posleft = right.GetComponent<PositionRightHand> ().positionright;
+		posright = right.GetComponent<PositionRightHand> ().positionright;
 
 
 		//prüfen, ob ein Planet gegriffen ist
@@ -45,12 +43,12 @@ public class snap_allowed : MonoBehaviour {
 		//SnapDropZone aktiv/deaktiv setzen
 
 				if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
-					GetComponent<SphereCollider>().enabled = false;
+					//GetComponent<SphereCollider>().enabled = false;
 					snapok = false;
 					
 				}
 				if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
-					GetComponent<SphereCollider>().enabled = true;
+					//GetComponent<SphereCollider>().enabled = true;
 					snapok = true;
 
 				}

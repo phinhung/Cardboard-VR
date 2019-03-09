@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PluginWrapper : MonoBehaviour {
 
@@ -42,7 +43,7 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject szalumi;
 	// Update is called once per frame
 	void Update () {
-
+		myText2.text = "snap"+snapallowed;
 		//für Aufgabe 1 jeweils die SnapZone des jeweiligen Planeten aktiv setzen
 		myText.text = objectA.name;
 		if (objectA.name == "Sonne") {
@@ -131,6 +132,8 @@ public class PluginWrapper : MonoBehaviour {
 			szalumi.SetActive(false);
 		}
 
+
+
     }
 
 
@@ -174,14 +177,21 @@ public class PluginWrapper : MonoBehaviour {
 			hand.transform.DetachChildren ();
 
 
-			if (snapallowed = true) {
+			if ((snapallowed = true)&&(objecttosnap==objectA)) {
+				szene = SceneManager.GetActiveScene();
+
 				snap ();
 			} else {
-				objectA.GetComponent<Rigidbody> ().useGravity = true;
+				if (GameObject.Find("DenebBall").name=="DenebBall") {
+					objectA.GetComponent<Rigidbody> ().useGravity = false;
+				} else {
+					objectA.GetComponent<Rigidbody> ().useGravity = true;
+				}
 			}
 		}
 	}
 
+	Scene szene;
 	public GameObject snapzo;
 	public GameObject objecttosnap;
 	public GameObject planetenbahn;
@@ -192,7 +202,7 @@ public class PluginWrapper : MonoBehaviour {
 		
 
 		objectA.GetComponent<Rigidbody> ().useGravity = true;
-		OnTriggerStay (snapzo.GetComponent<SphereCollider> ());
+		OnTriggerEnter (snapzo.GetComponent<SphereCollider> ());
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
@@ -271,18 +281,17 @@ public class PluginWrapper : MonoBehaviour {
 
 
 
- void OnTriggerStay(Collider other)
+ void OnTriggerEnter(Collider other)
 	{
-		if (enter) {	
+		if( (enter)&& (snapallowed)) {
+				
 			//planetenbahn.GetComponent<SphereCollider> ().enabled = false;
 			snappos.GetComponent<SphereCollider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
 			objectA.GetComponent<Rigidbody> ().useGravity = false;
 			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 
-		} else {
-			objectA.GetComponent<Rigidbody> ().useGravity = true;
-		}
+		} 
 	}
 
 	public void anschauen(){

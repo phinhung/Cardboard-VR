@@ -898,6 +898,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 303527288}
   objecttosnap: {fileID: 665839617}
   planetenbahn: {fileID: 1222869488}
@@ -4241,6 +4242,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 840840296}
   objecttosnap: {fileID: 665839614}
   planetenbahn: {fileID: 1036037501}
@@ -5626,6 +5628,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1162746680}
   objecttosnap: {fileID: 665839615}
   planetenbahn: {fileID: 173548700}
@@ -5833,6 +5836,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1311212529}
   objecttosnap: {fileID: 665839613}
   planetenbahn: {fileID: 1793464964}
@@ -5963,6 +5967,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1331126931}
   objecttosnap: {fileID: 665839622}
   planetenbahn: {fileID: 1366755680}
@@ -7096,6 +7101,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1690898030}
   objecttosnap: {fileID: 665839621}
   planetenbahn: {fileID: 1886417350}
@@ -7534,6 +7540,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1834941198}
   objecttosnap: {fileID: 665839619}
   planetenbahn: {fileID: 1497114720}
@@ -7650,6 +7657,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1864062499}
   objecttosnap: {fileID: 665839616}
   planetenbahn: {fileID: 55845044}
@@ -7994,7 +8002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1966170169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8330,6 +8338,7 @@ MonoBehaviour:
   left: {fileID: 1943500544}
   right: {fileID: 1866778567}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1988405575}
   objecttosnap: {fileID: 665839620}
   planetenbahn: {fileID: 1683999348}
