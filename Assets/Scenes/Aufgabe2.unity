@@ -5192,7 +5192,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 87b776ac566298c4d9464374632d0d0d, type: 2}
     - target: {fileID: 100000, guid: 0f2772c3843937a439556e02b14f1508, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0f2772c3843937a439556e02b14f1508, type: 3}
       propertyPath: m_Enabled
@@ -5237,7 +5237,7 @@ MonoBehaviour:
   Capella: {fileID: 1717927144}
   Atair: {fileID: 1774146675}
   AluMi: {fileID: 745033167}
-  Aufgabe2: 0
+  Aufgabe2: 1
   Spiegel1: {fileID: 0}
   Spiegel2: {fileID: 0}
   Linse: {fileID: 0}
