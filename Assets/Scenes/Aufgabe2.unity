@@ -2281,6 +2281,7 @@ MonoBehaviour:
   left: {fileID: 1600316358}
   right: {fileID: 1271286577}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 985989515}
   objecttosnap: {fileID: 1352158522}
   planetenbahn: {fileID: 0}
@@ -2297,7 +2298,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.07
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &985989519
 Transform:
@@ -2820,6 +2821,7 @@ MonoBehaviour:
   left: {fileID: 1600316358}
   right: {fileID: 1271286577}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1137649450}
   objecttosnap: {fileID: 1717927144}
   planetenbahn: {fileID: 0}
@@ -2836,7 +2838,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.079
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1137649454
 Transform:
@@ -3197,6 +3199,7 @@ MonoBehaviour:
   left: {fileID: 1600316358}
   right: {fileID: 1271286577}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1259863238}
   objecttosnap: {fileID: 1055941843}
   planetenbahn: {fileID: 0}
@@ -3694,6 +3697,7 @@ MonoBehaviour:
   left: {fileID: 1600316358}
   right: {fileID: 1271286577}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1448452973}
   objecttosnap: {fileID: 1774146675}
   planetenbahn: {fileID: 0}
@@ -3810,6 +3814,7 @@ MonoBehaviour:
   left: {fileID: 1600316358}
   right: {fileID: 1271286577}
   allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1548691605}
   objecttosnap: {fileID: 745033167}
   planetenbahn: {fileID: 0}
