@@ -245,27 +245,27 @@ public class PluginWrapper : MonoBehaviour {
 
 		if (objecttosnap.name == "DenebBall") {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedDe = true;
-			objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
 		}
 
 		if (objecttosnap.name == "VegaBall") {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedVe = true;
-			objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
 		}
 
 		if (objecttosnap.name == "CapellaBall") {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedCa = true;
-			objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
 		}
 
 		if (objecttosnap.name == "AtairBall") {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAt = true;
-			objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
 		}
 
 		if (objecttosnap.name == "AluMiBall") {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAluMi = true;
-			objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
 		}
 	}
 
