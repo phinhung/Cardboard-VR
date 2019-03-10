@@ -307,7 +307,7 @@ public class PluginWrapper : MonoBehaviour {
 		if (objecttosnap.name == "Objektivspiegel") {
 			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp1 = true;
-			objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
 			objectA.GetComponent<SphereCollider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
@@ -317,7 +317,7 @@ public class PluginWrapper : MonoBehaviour {
 		if (objecttosnap.name == "Sekundaerspiegel") {
 			objectA.transform.rotation = Quaternion.Euler(-31.695f,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp2 = true;
-			objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
 			objectA.GetComponent<SphereCollider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
@@ -327,7 +327,7 @@ public class PluginWrapper : MonoBehaviour {
 		if (objecttosnap.name == "konvexe Linse") {
 			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedLi = true;
-			objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
+			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
 			objectA.GetComponent<SphereCollider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
