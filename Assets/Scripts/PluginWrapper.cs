@@ -45,11 +45,10 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject szsp1;
 	public GameObject szsp2;
 	public GameObject szli;
+	bool cansnap;
 	// Update is called once per frame
 	void Update () {
-		myText2.text = "snap"+snapallowed;
-		//für Aufgabe 1 jeweils die SnapZone des jeweiligen Planeten aktiv setzen
-		myText.text = objectA.name;
+		cansnap = snapzo.GetComponent<snap_allowed> ().snapallow;
 		if (objectA.name == "Sonne") {
 			szsonne.SetActive(true);
 		} else {
@@ -198,7 +197,7 @@ public class PluginWrapper : MonoBehaviour {
 			hand.transform.DetachChildren ();
 
 
-			if ((snapallowed = true)&&(objecttosnap==objectA)) {
+			if ((snapallowed = true)&&(objecttosnap==objectA)&&(cansnap == true)) {
 				szene = SceneManager.GetActiveScene();
 
 				snap ();
@@ -224,7 +223,7 @@ public class PluginWrapper : MonoBehaviour {
 		
 
 		objectA.GetComponent<Rigidbody> ().useGravity = true;
-		OnTriggerEnter (snapzo.GetComponent<SphereCollider> ());
+		OnTriggerStay (snapzo.GetComponent<SphereCollider> ());
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
@@ -337,7 +336,7 @@ public class PluginWrapper : MonoBehaviour {
 
 
 
- void OnTriggerEnter(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 		if( (enter)&& (snapallowed)) {
 				
