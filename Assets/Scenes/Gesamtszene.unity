@@ -43482,7 +43482,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1947663135}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.036480073, y: 1.7935953, z: 1.526}
+  m_LocalPosition: {x: 0.036480073, y: 1.7935953, z: 1.398}
   m_LocalScale: {x: 0.01433705, y: 0.01433705, z: 0.01433705}
   m_Children: []
   m_Father: {fileID: 603817576}
@@ -43495,7 +43495,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1947663135}
-  m_Text: Ordne die Sterne!
+  m_Text: "Ordne die \nSterne!"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
