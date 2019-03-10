@@ -1418,6 +1418,7 @@ MonoBehaviour:
   player: {fileID: 2023763392}
   hand: {fileID: 1600316358}
   objecttograb: {fileID: 745033167}
+  from: {fileID: 0}
 --- !u!1 &763339698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,6 +2680,7 @@ MonoBehaviour:
   player: {fileID: 2023763392}
   hand: {fileID: 1600316358}
   objecttograb: {fileID: 1055941843}
+  from: {fileID: 0}
 --- !u!114 &1055941856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3471,6 +3473,7 @@ MonoBehaviour:
   player: {fileID: 2023763392}
   hand: {fileID: 1600316358}
   objecttograb: {fileID: 1352158522}
+  from: {fileID: 0}
 --- !u!114 &1352158534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4315,6 +4318,7 @@ MonoBehaviour:
   player: {fileID: 2023763392}
   hand: {fileID: 1600316358}
   objecttograb: {fileID: 1717927144}
+  from: {fileID: 0}
 --- !u!1 &1739949826
 GameObject:
   m_ObjectHideFlags: 0
@@ -4600,6 +4604,7 @@ MonoBehaviour:
   player: {fileID: 2023763392}
   hand: {fileID: 1600316358}
   objecttograb: {fileID: 1774146675}
+  from: {fileID: 0}
 --- !u!1 &1930909244 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 6fd27f782a2ce50468a6563ccd4f80ad, type: 3}
@@ -5192,7 +5197,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 87b776ac566298c4d9464374632d0d0d, type: 2}
     - target: {fileID: 100000, guid: 0f2772c3843937a439556e02b14f1508, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0f2772c3843937a439556e02b14f1508, type: 3}
       propertyPath: m_Enabled
@@ -5237,7 +5242,7 @@ MonoBehaviour:
   Capella: {fileID: 1717927144}
   Atair: {fileID: 1774146675}
   AluMi: {fileID: 745033167}
-  Aufgabe2: 1
+  Aufgabe2: 0
   Spiegel1: {fileID: 0}
   Spiegel2: {fileID: 0}
   Linse: {fileID: 0}
@@ -5451,6 +5456,9 @@ MonoBehaviour:
   szcapella: {fileID: 1137649450}
   szatair: {fileID: 1448452973}
   szalumi: {fileID: 1548691605}
+  szsp1: {fileID: 0}
+  szsp2: {fileID: 0}
+  szli: {fileID: 0}
   hand: {fileID: 1600316358}
   objectA: {fileID: 0}
   objectB: {fileID: 1600316359}
@@ -5460,6 +5468,7 @@ MonoBehaviour:
   objecttosnap: {fileID: 0}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 0}
+  teleskop: {fileID: 0}
   pointer: {fileID: 202893647}
   wpos: {x: 0, y: 0, z: 0}
   camera: {fileID: 0}

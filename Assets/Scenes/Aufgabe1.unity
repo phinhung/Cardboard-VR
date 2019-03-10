@@ -1136,7 +1136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &332206633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   jupiter: {fileID: 665839616}
   saturn: {fileID: 665839615}
   uranus: {fileID: 665839614}
-  Aufgabe1: 1
+  Aufgabe1: 0
   Deneb: {fileID: 0}
   Vega: {fileID: 0}
   Capella: {fileID: 0}
@@ -3870,6 +3870,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839622}
+  from: {fileID: 0}
 --- !u!114 &665839723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3884,6 +3885,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839614}
+  from: {fileID: 0}
 --- !u!114 &665839724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3898,6 +3900,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839615}
+  from: {fileID: 0}
 --- !u!114 &665839725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3912,6 +3915,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839616}
+  from: {fileID: 0}
 --- !u!114 &665839726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3926,6 +3930,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839617}
+  from: {fileID: 0}
 --- !u!114 &665839727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3940,6 +3945,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839619}
+  from: {fileID: 0}
 --- !u!114 &665839728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3954,6 +3960,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839620}
+  from: {fileID: 0}
 --- !u!114 &665839729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3968,6 +3975,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839621}
+  from: {fileID: 0}
 --- !u!114 &665839730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3982,6 +3990,7 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839613}
+  from: {fileID: 0}
 --- !u!1 &743661480
 GameObject:
   m_ObjectHideFlags: 0
@@ -5419,6 +5428,9 @@ MonoBehaviour:
   szcapella: {fileID: 0}
   szatair: {fileID: 0}
   szalumi: {fileID: 0}
+  szsp1: {fileID: 0}
+  szsp2: {fileID: 0}
+  szli: {fileID: 0}
   hand: {fileID: 1943500544}
   objectA: {fileID: 0}
   objectB: {fileID: 1943500545}
@@ -5428,6 +5440,7 @@ MonoBehaviour:
   objecttosnap: {fileID: 0}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 0}
+  teleskop: {fileID: 0}
   pointer: {fileID: 884319853}
   wpos: {x: 0, y: 0, z: 0}
   camera: {fileID: 400825700}

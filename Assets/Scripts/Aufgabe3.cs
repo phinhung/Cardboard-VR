@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Aufgabe3 : MonoBehaviour {
 
-    bool isSnappedSp1;
-    bool isSnappedSp2;
-    bool isSnappedLi;
+	public bool isSnappedSp1;
+	public bool isSnappedSp2;
+	public bool isSnappedLi;
     public bool finishSp1;
     public bool finishSp2;
     public bool finishLi;

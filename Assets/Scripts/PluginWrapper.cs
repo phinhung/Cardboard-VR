@@ -41,6 +41,10 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject szcapella;
 	public GameObject szatair;
 	public GameObject szalumi;
+
+	public GameObject szsp1;
+	public GameObject szsp2;
+	public GameObject szli;
 	// Update is called once per frame
 	void Update () {
 		myText2.text = "snap"+snapallowed;
@@ -132,7 +136,24 @@ public class PluginWrapper : MonoBehaviour {
 			szalumi.SetActive(false);
 		}
 
+		//für Aufgabe 3 jeweils die SnapZone des jeweiligen Objektes aktiv setzen, wenn dieser gegriffen
+		if (objectA.name == "Objektivspiegel") {
+			szsp1.SetActive(true);
+		} else {
+			szsp1.SetActive(false);
+		}
 
+		if (objectA.name == "Sekundaerspiegel") {
+			szsp2.SetActive(true);
+		} else {
+			szsp2.SetActive(false);
+		}
+
+		if (objectA.name == "Sekundaerspiegel") {
+			szli.SetActive(true);
+		} else {
+			szli.SetActive(false);
+		}
 
     }
 
@@ -197,6 +218,7 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject planetenbahn;
 	public GameObject snappos;
 	bool enter=true;
+	public GameObject teleskop;
 
 	public void snap(){
 		
@@ -206,16 +228,19 @@ public class PluginWrapper : MonoBehaviour {
 
 		if (objecttosnap.name == "Sonne") {
 			objecttosnap.GetComponent<Rotation> ().isSnappedso = true;
+			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 
 		}
 
 		if (objecttosnap.name == "Merkur") {
 			objecttosnap.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
+			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappedmerkur = true;
 		}
 
 		if (objecttosnap.name == "Venus") {
 			objecttosnap.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
+			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappedv = true;
 		}
 
@@ -245,6 +270,7 @@ public class PluginWrapper : MonoBehaviour {
 
 		if (objecttosnap.name == "Uranus") {
 			objecttosnap.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+			objectA.transform.rotation = Quaternion.Euler(0,0,0);
 			objecttosnap.GetComponent<Rotation> ().isSnappedu = true;
 		}
 
@@ -277,6 +303,36 @@ public class PluginWrapper : MonoBehaviour {
 			objecttosnap.GetComponent<Aufgabe2> ().isSnappedAluMi = true;
 			//objecttosnap.GetComponent<Aufgabe2>().Stern_Material.color = Color.green;
 		}
+
+		if (objecttosnap.name == "Objektivspiegel") {
+			objectA.transform.rotation = Quaternion.Euler(0,0,0);
+			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp1 = true;
+			objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
+			objectA.GetComponent<SphereCollider> ().enabled = false;
+			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+
+		}
+
+		if (objecttosnap.name == "Sekundaerspiegel") {
+			objectA.transform.rotation = Quaternion.Euler(-31.695f,0,0);
+			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp2 = true;
+			objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
+			objectA.GetComponent<SphereCollider> ().enabled = false;
+			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+
+		}
+
+		if (objecttosnap.name == "konvexe Linse") {
+			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
+			objecttosnap.GetComponent<Aufgabe3> ().isSnappedLi = true;
+			objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
+			objectA.GetComponent<SphereCollider> ().enabled = false;
+			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+
+		}
 	}
 
 
@@ -289,7 +345,7 @@ public class PluginWrapper : MonoBehaviour {
 			snappos.GetComponent<SphereCollider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
 			objectA.GetComponent<Rigidbody> ().useGravity = false;
-			objectA.transform.rotation = Quaternion.Euler(0,0,0);
+
 
 		} 
 	}
