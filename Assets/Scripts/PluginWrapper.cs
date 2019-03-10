@@ -180,11 +180,11 @@ public class PluginWrapper : MonoBehaviour {
 
 		if ((ok == "1") && (angeschaut == true)) {
 			if (hand.transform.childCount == 0) {
-				Debug.Log ("yay");	
 				objectA.transform.position = objectB.position;
+				objectA.transform.rotation = Quaternion.Euler(0,0,0);
 				objectA.transform.parent = objectB;
 				objectA.GetComponent<Rigidbody>().useGravity = false;
-				objectA.transform.rotation = Quaternion.Euler(0,0,0);
+			
 			}
 
 			}
@@ -375,11 +375,9 @@ public class PluginWrapper : MonoBehaviour {
 			oA.SetActive (true);
 			panelactive = true;
 			oA.transform.LookAt (camera.transform);
-			myText2.text = "panelda";
 		
 			
 		} else	if ((panelactive == true)&&(hand.transform.childCount == 1)&&(oki == "1")){
-			myText2.text = "panelweg";
 			oA.SetActive (false);
 			panelactive = false;
 
