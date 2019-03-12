@@ -1136,7 +1136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &332206633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   jupiter: {fileID: 665839616}
   saturn: {fileID: 665839615}
   uranus: {fileID: 665839614}
-  Aufgabe1: 1
+  Aufgabe1: 0
   Deneb: {fileID: 0}
   Vega: {fileID: 0}
   Capella: {fileID: 0}
@@ -8015,7 +8015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1966170169
 MonoBehaviour:
   m_ObjectHideFlags: 0

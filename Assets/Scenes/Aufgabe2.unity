@@ -5371,7 +5371,7 @@ MonoBehaviour:
   Capella: {fileID: 1717927144}
   Atair: {fileID: 1774146675}
   AluMi: {fileID: 745033167}
-  Aufgabe2: 1
+  Aufgabe2: 0
   Spiegel1: {fileID: 0}
   Spiegel2: {fileID: 0}
   Linse: {fileID: 0}
