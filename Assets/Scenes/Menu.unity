@@ -190,7 +190,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3b68f08f2bbe60046b51ddf458aa1933, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1174,6 +1174,9 @@ MonoBehaviour:
   szcapella: {fileID: 0}
   szatair: {fileID: 0}
   szalumi: {fileID: 0}
+  szsp1: {fileID: 0}
+  szsp2: {fileID: 0}
+  szli: {fileID: 0}
   hand: {fileID: 1286504300}
   objectA: {fileID: 0}
   objectB: {fileID: 1286504301}
@@ -1183,6 +1186,7 @@ MonoBehaviour:
   objecttosnap: {fileID: 0}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 0}
+  teleskop: {fileID: 0}
   pointer: {fileID: 1937350415}
   wpos: {x: 0, y: 0, z: 0}
   camera: {fileID: 0}
@@ -1628,7 +1632,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3b68f08f2bbe60046b51ddf458aa1933, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
