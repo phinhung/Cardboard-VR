@@ -304,7 +304,7 @@ public class PluginWrapper : MonoBehaviour {
 		}
 
 		if (objecttosnap.name == "Objektivspiegel") {
-			objectA.transform.rotation = Quaternion.Euler(0,0,0);
+			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp1 = true;
 			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
 			objectA.GetComponent<SphereCollider> ().enabled = false;
@@ -314,7 +314,7 @@ public class PluginWrapper : MonoBehaviour {
 		}
 
 		if (objecttosnap.name == "Sekundaerspiegel") {
-			objectA.transform.rotation = Quaternion.Euler(-31.695f,0,0);
+			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp2 = true;
 			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
 			objectA.GetComponent<SphereCollider> ().enabled = false;
