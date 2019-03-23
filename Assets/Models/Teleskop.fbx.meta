@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a338c823a3c141d4180110e569833ece
-timeCreated: 1525534110
+timeCreated: 1553366797
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -18,9 +18,9 @@ ModelImporter:
     400008: Sphere
     400010: //RootNode
     2100000: TeleskopHuelle
-    2100002: TeleskopSpiegel
+    2100002: TeleskopFuesse
     2100004: No Name
-    2100006: TeleskopFuesse
+    2100006: TeleskopSpiegel
     2300000: Cylinder
     2300002: Cylinder.001
     2300004: Cylinder.002
@@ -31,11 +31,11 @@ ModelImporter:
     3300004: Cylinder.002
     3300006: Cylinder.003
     3300008: Sphere
-    4300000: Cylinder.003
-    4300002: Cylinder.002
+    4300000: Cylinder.001
+    4300002: Sphere
     4300004: Cylinder
-    4300006: Sphere
-    4300008: Cylinder.001
+    4300006: Cylinder.002
+    4300008: Cylinder.003
   externalObjects: {}
   materials:
     importMaterials: 1
