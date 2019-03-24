@@ -3361,7 +3361,6 @@ GameObject:
   - component: {fileID: 286223856}
   - component: {fileID: 286223859}
   - component: {fileID: 286223858}
-  - component: {fileID: 286223857}
   m_Layer: 0
   m_Name: Fenster1
   m_TagString: Untagged
@@ -3382,18 +3381,6 @@ Transform:
   m_Father: {fileID: 1414034816}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &286223857
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 286223855}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.020000083, z: 0.019999998}
-  m_Center: {x: 0.005, y: -0.00000012040138, z: 9.313227e-10}
 --- !u!23 &286223858
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3812,18 +3799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipOnTouch: {fileID: 0}
-  strengthOnTouch: 0
-  durationOnTouch: 0
-  intervalOnTouch: 0.05
-  clipOnGrab: {fileID: 0}
-  strengthOnGrab: 0
-  durationOnGrab: 0
-  intervalOnGrab: 0.05
-  clipOnUse: {fileID: 0}
-  strengthOnUse: 0
-  durationOnUse: 0
-  intervalOnUse: 0.05
 --- !u!54 &303337529
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3861,12 +3836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &303337532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3878,25 +3847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 0
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 303337531}
-  secondaryGrabActionScript: {fileID: 303337530}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!114 &303337533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3908,22 +3858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7ee1818514f3b4296422c2df5fbe8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultEvents:
-    OnValueChanged:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: VRTK.VRTK_Control+ValueChangedEvent, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  interactWithoutGrab: 0
-  connectedTo: {fileID: 0}
-  direction: 1
-  minimumLimit: {fileID: 131110208}
-  maximumLimit: {fileID: 1231781287}
-  minimumValue: 0
-  maximumValue: 0
-  stepSize: 0.1
-  snapToStep: 0
-  releasedFriction: 50
 --- !u!1 &305584155
 GameObject:
   m_ObjectHideFlags: 0
@@ -5749,18 +5683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipOnTouch: {fileID: 0}
-  strengthOnTouch: 0
-  durationOnTouch: 0
-  intervalOnTouch: 0.05
-  clipOnGrab: {fileID: 0}
-  strengthOnGrab: 0
-  durationOnGrab: 0
-  intervalOnGrab: 0.05
-  clipOnUse: {fileID: 0}
-  strengthOnUse: 0
-  durationOnUse: 0
-  intervalOnUse: 0.05
 --- !u!54 &429000829
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5798,12 +5720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &429000832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5815,25 +5731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 0
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 429000831}
-  secondaryGrabActionScript: {fileID: 429000830}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!114 &429000833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5845,22 +5742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7ee1818514f3b4296422c2df5fbe8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultEvents:
-    OnValueChanged:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: VRTK.VRTK_Control+ValueChangedEvent, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  interactWithoutGrab: 0
-  connectedTo: {fileID: 0}
-  direction: 1
-  minimumLimit: {fileID: 1677658000}
-  maximumLimit: {fileID: 499248378}
-  minimumValue: 0
-  maximumValue: 0
-  stepSize: 0.1
-  snapToStep: 0
-  releasedFriction: 50
 --- !u!65 &429000834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10155,8 +10036,6 @@ GameObject:
   - component: {fileID: 768139968}
   - component: {fileID: 768139972}
   - component: {fileID: 768139971}
-  - component: {fileID: 768139970}
-  - component: {fileID: 768139969}
   m_Layer: 0
   m_Name: Griff
   m_TagString: Untagged
@@ -10178,45 +10057,6 @@ Transform:
   m_Father: {fileID: 1414034816}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &768139969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 768139967}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd7ee1818514f3b4296422c2df5fbe8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultEvents:
-    OnValueChanged:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: VRTK.VRTK_Control+ValueChangedEvent, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  interactWithoutGrab: 0
-  connectedTo: {fileID: 0}
-  direction: 1
-  minimumLimit: {fileID: 982928864}
-  maximumLimit: {fileID: 1610199620}
-  minimumValue: 0
-  maximumValue: 10
-  stepSize: 0.5
-  snapToStep: 0
-  releasedFriction: 30
---- !u!65 &768139970
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 768139967}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.052801613, z: 0.019999996}
-  m_Center: {x: 0.000000059574095, y: 0.01640081, z: 0}
 --- !u!23 &768139971
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12025,18 +11865,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipOnTouch: {fileID: 0}
-  strengthOnTouch: 0
-  durationOnTouch: 0
-  intervalOnTouch: 0.05
-  clipOnGrab: {fileID: 0}
-  strengthOnGrab: 0
-  durationOnGrab: 0
-  intervalOnGrab: 0.05
-  clipOnUse: {fileID: 0}
-  strengthOnUse: 0
-  durationOnUse: 0
-  intervalOnUse: 0.05
 --- !u!54 &981403989
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12074,12 +11902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &981403992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12091,25 +11913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 0
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 981403991}
-  secondaryGrabActionScript: {fileID: 981403990}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!114 &981403993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12121,22 +11924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7ee1818514f3b4296422c2df5fbe8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultEvents:
-    OnValueChanged:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: VRTK.VRTK_Control+ValueChangedEvent, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  interactWithoutGrab: 0
-  connectedTo: {fileID: 0}
-  direction: 1
-  minimumLimit: {fileID: 866584198}
-  maximumLimit: {fileID: 679458676}
-  minimumValue: 0
-  maximumValue: 0
-  stepSize: 0.1
-  snapToStep: 0
-  releasedFriction: 50
 --- !u!65 &981403994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12322,7 +12109,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 982928863}
-  - component: {fileID: 982928864}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -12343,18 +12129,6 @@ Transform:
   m_Father: {fileID: 1414034816}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &982928864
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 982928862}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.08675502, y: 0.17381057, z: 1.9900503}
-  m_Center: {x: -0.06445963, y: 0.10912413, z: 0.01739061}
 --- !u!1 &983922481
 GameObject:
   m_ObjectHideFlags: 0
@@ -14071,18 +13845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipOnTouch: {fileID: 0}
-  strengthOnTouch: 0
-  durationOnTouch: 0
-  intervalOnTouch: 0.05
-  clipOnGrab: {fileID: 0}
-  strengthOnGrab: 0
-  durationOnGrab: 0
-  intervalOnGrab: 0.05
-  clipOnUse: {fileID: 0}
-  strengthOnUse: 0
-  durationOnUse: 0
-  intervalOnUse: 0.05
 --- !u!54 &1174315234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14120,12 +13882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &1174315237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14137,25 +13893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 0
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1174315236}
-  secondaryGrabActionScript: {fileID: 1174315235}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!114 &1174315238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14167,22 +13904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7ee1818514f3b4296422c2df5fbe8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultEvents:
-    OnValueChanged:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: VRTK.VRTK_Control+ValueChangedEvent, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  interactWithoutGrab: 0
-  connectedTo: {fileID: 0}
-  direction: 1
-  minimumLimit: {fileID: 118033655}
-  maximumLimit: {fileID: 210876615}
-  minimumValue: 0
-  maximumValue: 0
-  stepSize: 0.1
-  snapToStep: 0
-  releasedFriction: 50
 --- !u!65 &1174315239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17230,12 +16951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &1439022825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17247,25 +16962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 0
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1439022824}
-  secondaryGrabActionScript: {fileID: 1439022823}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!65 &1439022826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17315,15 +17011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7668d60aac28b44ab5e626253713906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  detachDistance: 1
-  velocityLimit: Infinity
-  angularVelocityLimit: Infinity
 --- !u!114 &1439022830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17335,25 +17022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1439022829}
-  secondaryGrabActionScript: {fileID: 1439022828}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!65 &1439022831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17437,15 +17105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7668d60aac28b44ab5e626253713906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  detachDistance: 1
-  velocityLimit: Infinity
-  angularVelocityLimit: Infinity
 --- !u!114 &1439022836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17457,25 +17116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1439022835}
-  secondaryGrabActionScript: {fileID: 1439022834}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!65 &1439022837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17559,15 +17199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7668d60aac28b44ab5e626253713906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  detachDistance: 1
-  velocityLimit: Infinity
-  angularVelocityLimit: Infinity
 --- !u!114 &1439022842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17579,25 +17210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 7
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1439022841}
-  secondaryGrabActionScript: {fileID: 1439022840}
-  isUsable: 0
-  holdButtonToUse: 0
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!65 &1439022843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18350,18 +17962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipOnTouch: {fileID: 0}
-  strengthOnTouch: 0
-  durationOnTouch: 0
-  intervalOnTouch: 0.05
-  clipOnGrab: {fileID: 0}
-  strengthOnGrab: 0
-  durationOnGrab: 0
-  intervalOnGrab: 0.05
-  clipOnUse: {fileID: 0}
-  strengthOnUse: 0
-  durationOnUse: 0
-  intervalOnUse: 0.05
 --- !u!54 &1558854177
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18399,12 +17999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &1558854180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18416,25 +18010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  touchHighlightColor: {r: 1, g: 0.051470578, b: 0.051470578, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 0
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 0
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1558854179}
-  secondaryGrabActionScript: {fileID: 1558854178}
-  isUsable: 0
-  holdButtonToUse: 1
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  usingState: 0
 --- !u!1 &1585072767
 GameObject:
   m_ObjectHideFlags: 0
@@ -18738,7 +18313,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1610199621}
-  - component: {fileID: 1610199620}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -18746,18 +18320,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1610199620
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1610199619}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.08675502, y: 0.17381057, z: 1.9900503}
-  m_Center: {x: -0.06445963, y: 0.10912413, z: 0.01739061}
 --- !u!4 &1610199621
 Transform:
   m_ObjectHideFlags: 0
