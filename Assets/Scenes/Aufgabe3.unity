@@ -122,7 +122,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 24799595}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelTopControls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 227322094}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 432500030}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelTopControls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 617735839}
   - component: {fileID: 617735841}
   - component: {fileID: 617735840}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 634039976}
   - component: {fileID: 634039978}
   - component: {fileID: 634039977}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1548,7 +1548,7 @@ GameObject:
   - component: {fileID: 794906108}
   - component: {fileID: 794906110}
   - component: {fileID: 794906109}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1621,7 +1621,7 @@ GameObject:
   - component: {fileID: 796951269}
   - component: {fileID: 796951271}
   - component: {fileID: 796951270}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,7 +2131,7 @@ GameObject:
   - component: {fileID: 1203917630}
   - component: {fileID: 1203917629}
   - component: {fileID: 1203917628}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelMenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2230,7 +2230,7 @@ GameObject:
   - component: {fileID: 1264713660}
   - component: {fileID: 1264713659}
   - component: {fileID: 1264713658}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelMenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2415,7 +2415,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1320209144}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelTopControls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2804,7 +2804,7 @@ GameObject:
   - component: {fileID: 1425322493}
   - component: {fileID: 1425322495}
   - component: {fileID: 1425322494}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3145,7 +3145,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1622082909}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3472,7 +3472,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1828617861}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4057,7 +4057,7 @@ GameObject:
   - component: {fileID: 1987245168}
   - component: {fileID: 1987245170}
   - component: {fileID: 1987245169}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4146,7 +4146,7 @@ GameObject:
   - component: {fileID: 2109972072}
   - component: {fileID: 2109972071}
   - component: {fileID: 2109972070}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: PanelMenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4314,14 +4314,14 @@ Transform:
   m_PrefabParentObject: {fileID: 400008, guid: a338c823a3c141d4180110e569833ece, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2131658397}
-  m_LocalRotation: {x: -0.0022113621, y: -0, z: -0, w: 0.99999756}
-  m_LocalPosition: {x: -0.5720001, y: 0.0069999993, z: 0.065209866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5720001, y: 0.037, z: 0.065209866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 227322094}
   m_Father: {fileID: 473307311}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -0.25300002, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131658397
 GameObject:
   m_ObjectHideFlags: 0
@@ -4337,7 +4337,7 @@ GameObject:
   - component: {fileID: 2131658403}
   - component: {fileID: 2131658411}
   - component: {fileID: 2131658412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: konvexe Linse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4350,14 +4350,14 @@ Transform:
   m_PrefabParentObject: {fileID: 400004, guid: a338c823a3c141d4180110e569833ece, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2131658399}
-  m_LocalRotation: {x: -0.46073347, y: -0, z: -0, w: 0.88753855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.6119999, y: 0.04, z: 0.10277724}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1828617861}
   m_Father: {fileID: 473307311}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -54.869003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131658399
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,7 +4373,7 @@ GameObject:
   - component: {fileID: 2131658405}
   - component: {fileID: 2131658406}
   - component: {fileID: 2131658423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sekundaerspiegel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4410,7 +4410,7 @@ GameObject:
   - component: {fileID: 2131658409}
   - component: {fileID: 2131658410}
   - component: {fileID: 2131658414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Objektivspiegel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4797,10 +4797,10 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 120
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!33 &2131658416
 MeshFilter:
@@ -4855,7 +4855,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
@@ -4913,10 +4913,10 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!33 &2131658422
 MeshFilter:
