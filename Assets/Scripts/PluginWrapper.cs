@@ -148,7 +148,7 @@ public class PluginWrapper : MonoBehaviour {
 			szsp2.SetActive(false);
 		}
 
-		if (objectA.name == "Sekundaerspiegel") {
+		if (objectA.name == "konvexe Linse") {
 			szli.SetActive(true);
 		} else {
 			szli.SetActive(false);
@@ -217,7 +217,7 @@ public class PluginWrapper : MonoBehaviour {
 	public GameObject planetenbahn;
 	public GameObject snappos;
 	bool enter=true;
-	public GameObject teleskop;
+
 
 	public void snap(){
 		
@@ -317,7 +317,6 @@ public class PluginWrapper : MonoBehaviour {
 			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp2 = true;
 			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
-			objectA.GetComponent<SphereCollider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 
@@ -327,7 +326,6 @@ public class PluginWrapper : MonoBehaviour {
 			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedLi = true;
 			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
-			objectA.GetComponent<SphereCollider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 
