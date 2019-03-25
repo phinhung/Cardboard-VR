@@ -930,7 +930,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 675894241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: -0.18, z: 0.449}
+  m_LocalPosition: {x: -0.15, y: -0.18, z: 0.449}
   m_LocalScale: {x: 0.05000003, y: 0.05, z: 0.05000003}
   m_Children: []
   m_Father: {fileID: 779946065}
@@ -1102,7 +1102,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.08
+  m_Radius: 0.04
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &681521292
 Transform:
@@ -2103,7 +2103,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.03
+  m_Radius: 0.028
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1186067602
 Transform:
@@ -2387,7 +2387,6 @@ MonoBehaviour:
   objecttosnap: {fileID: 0}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 0}
-  teleskop: {fileID: 0}
   pointer: {fileID: 779946064}
   wpos: {x: 0, y: 0, z: 0}
   camera: {fileID: 1270129746}
@@ -2571,7 +2570,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1351114063}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -0.18, z: 0.44899997}
+  m_LocalPosition: {x: 0.15, y: -0.18, z: 0.44899997}
   m_LocalScale: {x: 0.050000057, y: 0.049999997, z: 0.050000057}
   m_Children: []
   m_Father: {fileID: 779946065}
@@ -4351,7 +4350,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2131658399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6119999, y: 0.04, z: 0.10277724}
+  m_LocalPosition: {x: 0.6119999, y: 1.375, z: 0.10277724}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1828617861}
