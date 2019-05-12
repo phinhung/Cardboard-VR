@@ -39,22 +39,25 @@ public class snap_allowed : MonoBehaviour {
 		if (objectisgrabbed == true) {
 			Distanceri = Vector3.Distance (posright, center);
 			Distancele = Vector3.Distance (posleft, center);
-		//SnapDropZone aktiv/deaktiv setzen
+			//SnapDropZone aktiv/deaktiv setzen
 
-				if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
-					//GetComponent<SphereCollider>().enabled = false;
-					snapok = false;
+			if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
+				snapzo.GetComponent<SphereCollider> ().enabled = false;
+				snapok = false;
 					
-				}
-				if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
-					//GetComponent<SphereCollider>().enabled = true;
-					snapok = true;
+			}
+			if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
+				snapzo.GetComponent<SphereCollider> ().enabled = true;
+				snapok = true;
 
-				}
+			}
 			
+		} else {
+			snapzo.GetComponent<SphereCollider>().enabled = false;
+			snapok = false;
 		}
 
-		pos= player.GetComponent<PluginWrapper> ().wpos ;
+	
 		if ( (snapallow == true) && (snapok == true)) {
 			player.GetComponent<PluginWrapper> ().snapzo = snapzo;
 			player.GetComponent<PluginWrapper> ().objecttosnap = objecttosnap;
@@ -72,7 +75,7 @@ public class snap_allowed : MonoBehaviour {
 	public GameObject snappos;
 	public bool snapallow;
 	public GameObject player;
-	Vector3 pos;
+
 
 
 
