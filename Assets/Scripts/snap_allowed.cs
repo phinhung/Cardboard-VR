@@ -7,7 +7,7 @@ public class snap_allowed : MonoBehaviour {
 
 	public Vector3 posleft;
 	Vector3 posright;
-	Vector3 center;
+	Vector3 center = new Vector3 (0,0,0);
 	public bool objectisgrabbed;
 	public float Distanceri;
 	public float Distancele;
@@ -37,16 +37,16 @@ public class snap_allowed : MonoBehaviour {
 
 		//ausrechnen der Distanz
 		if (objectisgrabbed == true) {
-			Distanceri = Vector3.Distance (posright, center);
+			Distanceri = Vector3.Distance (posright,center);
 			Distancele = Vector3.Distance (posleft, center);
 			//SnapDropZone aktiv/deaktiv setzen
 
-			if (objectisgrabbed == true && (Distancele < alloweddistance | Distanceri < alloweddistance)) {
+			if (objectisgrabbed == true && (Distancele <= alloweddistance | Distanceri <= alloweddistance)) {
 				snapzo.GetComponent<SphereCollider> ().enabled = false;
 				snapok = false;
 					
 			}
-			if (objectisgrabbed == true && (Distancele > alloweddistance | Distanceri > alloweddistance)) {
+			if (objectisgrabbed == true && (Distancele >= alloweddistance | Distanceri >= alloweddistance)) {
 				snapzo.GetComponent<SphereCollider> ().enabled = true;
 				snapok = true;
 
