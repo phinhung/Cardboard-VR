@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -775,13 +775,13 @@ MonoBehaviour:
   alloweddistance: 0
   left: {fileID: 675894241}
   right: {fileID: 1351114063}
-  allowsnap: 1
-  snapok: 1
+  allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 681521288}
   objecttosnap: {fileID: 2131658399}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 1631822993}
-  snapallow: 1
+  snapallow: 0
   player: {fileID: 1270129746}
 --- !u!135 &681521291
 SphereCollider:
@@ -1208,13 +1208,13 @@ MonoBehaviour:
   alloweddistance: 0
   left: {fileID: 675894241}
   right: {fileID: 1351114063}
-  allowsnap: 1
-  snapok: 1
+  allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1186067598}
   objecttosnap: {fileID: 2131658397}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 1490806790}
-  snapallow: 1
+  snapallow: 0
   player: {fileID: 1270129746}
 --- !u!135 &1186067601
 SphereCollider:
@@ -2067,13 +2067,13 @@ MonoBehaviour:
   alloweddistance: 0
   left: {fileID: 675894241}
   right: {fileID: 1351114063}
-  allowsnap: 1
-  snapok: 1
+  allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1725954919}
   objecttosnap: {fileID: 2131658401}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 1900045255}
-  snapallow: 1
+  snapallow: 0
   player: {fileID: 1270129746}
 --- !u!135 &1725954922
 SphereCollider:

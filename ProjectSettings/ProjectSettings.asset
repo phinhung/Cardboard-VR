@@ -737,9 +737,9 @@ PlayerSettings:
     Unity_Ads: 0
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3faf0740-5905-4863-a5c9-5114d41766eb
-  projectName: Facharbeit
-  organizationId: unity_laqpdx5xqwoiaw
+  cloudProjectId: f867c5d2-b20a-4b6e-8868-5689a80c7341
+  projectName: StargazingVR
+  organizationId: phi-nhung-nguyen-thi
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
